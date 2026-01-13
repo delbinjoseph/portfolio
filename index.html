@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delbin Joseph | Cyber Security Enthusiast</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Ionicons for Icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+
+    <header class="animate-down">
+        <div class="container">
+            <nav>
+                <div class="logo">Delbin<span>.</span></div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#focus">My Journey</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-right">
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Dark Mode">
+                        <ion-icon name="moon-outline"></ion-icon>
+                    </button>
+                    <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+                        <ion-icon name="menu-outline"></ion-icon>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container hero-content">
+                <div class="profile-img-container animate-zoom">
+                    <img src="assets/img/profile.png" alt="Delbin Joseph" class="profile-img">
+                </div>
+                <h1 class="animate-up delay-200">Hi, I'm <span class="highlight">Delbin Joseph</span>.</h1>
+                <h2 id="hero-subtitle" class="animate-up delay-300">
+                    Aspiring Cybersecurity Professional<br>
+                    <span class="sub-highlight">CompTIA Security+ (in progress)</span>
+                </h2>
+                <p style="max-width: 600px; margin: 0 auto; color: var(--secondary-text); margin-bottom: 25px;"
+                    class="animate-up delay-400">
+                    Transforming my passion for tech into a career securing the digital world. <br class="mobile-hide">
+                    Open to entry-level roles, mentorship, and internships.
+                </p>
+                <div class="hero-socials animate-up delay-500">
+                    <a href="assets/resume.pdf" target="_blank" class="resume-btn">Resume</a>
+                    <a href="mailto:mail@delbinjoseph.com" target="_blank" aria-label="Email">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </a>
+                    <a href="https://www.linkedin.com/in/delbinjoseph/" target="_blank" aria-label="LinkedIn">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </div>
+
+                <div class="scroll-down">
+                    <a href="#about" aria-label="Scroll Down">
+                        <ion-icon name="chevron-down-outline"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content fade-in">
+                    <div class="about-text">
+                        <h3>About Me</h3>
+                        <p>
+                            I’m based in Kerala, India, transitioning into cybersecurity from a non-IT background. </br>
+                            I’m
+                            currently preparing for CompTIA Security+ (SY0-701) while building strong foundations in
+                            networking, Linux, and Python for basic scripting and automation.
+                        </p>
+                        <p>
+                            I focus on understanding systems and networks before learning how to secure them,
+                            reinforcing concepts through beginner CTF rooms and guided practice. I value honest progress
+                            over exaggerated claims and plan to add practical projects and write-ups as I gain more
+                            hands-on experience.
+                        </p>
+                        <p>
+                            I’m actively seeking entry-level opportunities, mentorship, and learning-focused roles in
+                            cybersecurity.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="focus" class="focus">
+            <div class="container">
+                <h3 class="fade-in" style="font-size: 2rem; margin-bottom: 30px; text-align: center;">Currently Learning
+                    & Practicing</h3>
+                <div class="focus-grid">
+                    <div class="card fade-in">
+                        <ion-icon name="shield-checkmark-outline"
+                            style="font-size: 2rem; color: var(--accent-color); margin-bottom: 10px;"></ion-icon>
+                        <h4>CompTIA Security+</h4>
+                        <p>Currently preparing for the Security+ certification to validate my core knowledge in
+                            cybersecurity principles.</p>
+                    </div>
+                    <div class="card fade-in">
+                        <!-- Custom SVG for Hierarchy/Network Structure -->
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                            style="width: 2rem; height: 2rem; color: var(--accent-color); margin-bottom: 10px; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 32;">
+                            <rect x="208" y="48" width="96" height="96" rx="16" ry="16" />
+                            <rect x="64" y="368" width="96" height="96" rx="16" ry="16" />
+                            <rect x="208" y="368" width="96" height="96" rx="16" ry="16" />
+                            <rect x="352" y="368" width="96" height="96" rx="16" ry="16" />
+                            <line x1="256" y1="144" x2="256" y2="256" />
+                            <line x1="112" y1="256" x2="400" y2="256" />
+                            <line x1="112" y1="256" x2="112" y2="368" />
+                            <line x1="256" y1="256" x2="256" y2="368" />
+                            <line x1="400" y1="256" x2="400" y2="368" />
+                        </svg>
+                        <h4>Networking Fundamentals</h4>
+                        <p>Building a strong understanding of networks, protocols, and how data moves securely across
+                            systems.</p>
+                    </div>
+                    <div class="card fade-in">
+                        <ion-icon name="logo-tux"
+                            style="font-size: 2rem; color: var(--accent-color); margin-bottom: 10px;"></ion-icon>
+                        <h4>Linux Basics</h4>
+                        <p>Comfortable navigating Linux systems, managing files, users, permissions, and understanding
+                            basic system behavior.</p>
+                    </div>
+                    <div class="card fade-in">
+                        <ion-icon name="flag-outline"
+                            style="font-size: 2rem; color: var(--accent-color); margin-bottom: 10px;"></ion-icon>
+                        <h4>Practice Platforms</h4>
+                        <p>Regularly practicing beginner-level cybersecurity rooms and challenges to reinforce
+                            theoretical concepts.</p>
+                    </div>
+                    <div class="card fade-in">
+                        <ion-icon name="logo-python"
+                            style="font-size: 2rem; color: var(--accent-color); margin-bottom: 10px;"></ion-icon>
+                        <h4>Python Basics</h4>
+                        <p>Learning Python fundamentals with a focus on scripting logic useful for automation and
+                            security tasks.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container fade-in">
+                <h3>Let's Connect</h3>
+                <p>Looking for junior security talent? Want to share advice or collaborate? Let's talk.</p>
+                <div class="contact-links-large">
+                    <a href="mailto:mail@delbinjoseph.com" class="big-contact-btn">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <div class="btn-text">
+                            <span class="label">Email me directly</span>
+                            <span class="value">mail@delbinjoseph.com</span>
+                        </div>
+                        <ion-icon name="arrow-forward-outline" class="arrow"></ion-icon>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/delbinjoseph/" target="_blank" class="big-contact-btn">
+                        <div class="icon-box">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </div>
+                        <div class="btn-text">
+                            <span class="label">Connect on LinkedIn</span>
+                            <span class="value">delbinjoseph</span>
+                        </div>
+                        <ion-icon name="arrow-forward-outline" class="arrow"></ion-icon>
+                    </a>
+                </div>
+                <!-- Download Resume Button -->
+                <div style="margin-top: 20px; display: flex; justify-content: center;">
+                    <a href="assets/resume.pdf" target="_blank" class="big-contact-btn"
+                        style="width: 100%; max-width: 350px;">
+                        <div class="icon-box">
+                            <ion-icon name="document-text-outline"></ion-icon>
+                        </div>
+                        <div class="btn-text">
+                            <span class="label">Want a copy?</span>
+                            <span class="value">Download my resume</span>
+                        </div>
+                        <ion-icon name="download-outline" class="arrow"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Delbin Joseph. Built with enthusiasm.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
